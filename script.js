@@ -27,7 +27,7 @@ gsap.to("#nav",{
     scrollTrigger: {
         trigger: "#nav",
         scoller: "body",
-        //markers: true,
+        // markers: true,
         start: "top -10%",
         end: "top -11%",
         scrub: 1
@@ -39,7 +39,7 @@ gsap.to("#main",{
     scrollTrigger: {
         trigger: "#main",
         scoller: "body",
-        //markers: true,
+        // markers: true,
         start: "top -25%",
         end: "top -70%",
         scrub: 2
@@ -54,7 +54,7 @@ gsap.from("#about-us img, #about-us-in",{
     scrollTrigger: {
         trigger:"#about-us",
         scroller: "body",
-        //markers: true,
+        // markers: true,
         start:"top 60%",
         end:"top 58%",
         scrub: 3
